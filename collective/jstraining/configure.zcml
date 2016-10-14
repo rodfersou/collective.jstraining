@@ -1,21 +1,16 @@
 <configure
    xmlns="http://namespaces.zope.org/zope"
-   xmlns:five="http://namespaces.zope.org/five"
-   xmlns:browser="http://namespaces.zope.org/browser"
    i18n_domain="collective.jstraining">
 
-   <plone:static
-     directory="static"
-     type="plone"
-     name="jstraining"
-     />
-
-   <genericsetup:registerProfile
-       name="default"
-       title="JS Training"
-       directory="profiles/default"
-       description="Install JS training package"
-       provides="Products.GenericSetup.interfaces.EXTENSION"
-       />
+  <include package=".exercise1" />
+  <include package=".exercise2" />
+  <include package=".exercise3" />
+  <include package=".exercise4" />
+  <include package=".exercise5" />
+  <include package=".exercise6" />
+  <include package=".exercise7" />
+  <include package=".exercise8" />
+  <include package=".exercise9" />
+  <include package=".exercise10" />
 
 </configure>
